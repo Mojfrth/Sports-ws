@@ -1,3 +1,6 @@
+import AgentAPI from "apminsight";
+AgentAPI.config();
+
 import express from 'express';
 import http from 'http';
 import {matchRouter} from "./routes/matches.js";
@@ -11,7 +14,7 @@ const HOST = process.env.HOST || '0.0.0.0';
 const app = express();
 const server = http.createServer(app);
 
-app.use(securityMiddleware());
+// app.use(securityMiddleware());
 
 app.use(express.json());
 

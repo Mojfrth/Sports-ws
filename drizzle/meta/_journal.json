@@ -8,6 +8,20 @@
       "when": 1770434322121,
       "tag": "0000_remarkable_rage",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1770437203245,
+      "tag": "0001_ordinary_firestar",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1770451181241,
+      "tag": "0002_parallel_stryfe",
+      "breakpoints": true
     }
   ]
 }
